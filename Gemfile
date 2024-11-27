@@ -13,7 +13,6 @@ gem "puma", ">= 5.0"
 gem 'devise'
 gem 'devise-jwt'  # For JWT-based API authentication
 
-
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
