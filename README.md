@@ -25,3 +25,22 @@ Before you can run the app locally, ensure you have the following installed:
   To install Ruby using Homebrew:
   ```bash
   brew install ruby
+
+
+  Setup and Installation
+  git clone repo_url
+  cd rails-react-project
+
+  Install Rails Dependencies:
+  bundle install
+
+  Set up the Database:
+  Make sure PostgreSQL is running. You can start PostgreSQL using the following command:
+  brew services start postgresql
+  Then, set up the database:
+  rails db:create
+  rails db:migrate
+
+  Start the Rails Server:
+  rails server
+
